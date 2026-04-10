@@ -29,7 +29,7 @@ h3 {
 }
 
 
-/* Grid visualisation for CSS testing */
+/* Grid visualisation for CSS testing 
 
 .container, .row {
     border: 2px solid black;
@@ -43,3 +43,4 @@ h3 {
 body > div {
     border: 2px solid black;
 }
+    */
