@@ -41,6 +41,32 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* Buttons */
+
+.custom-button-filled {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
+}
+
+.custom-button-filled:hover {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.custom-button-outline {
+  border: 3px solid var(--highlight-color);
+  color: var(--highlight-color);
+  padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+  background-color: var(--highlight-color);
+  color: white;
+}
+
 /* Navbar Styles */
 
 #navbar {
@@ -87,7 +113,7 @@ h2 {
   color: white;
 }
 
-#contact .sub-heading-color{
+#contact .sub-heading-color {
   color: var(--highlight-color-light);
 }
 
@@ -97,10 +123,10 @@ h2 {
   margin-right: 15px;
 }
 
-#contact .social-links i{
-    color: var(--highlight-color-light);
-    font-size: 1.9rem;
-    transition: color 0.3s ease-in-out;
+#contact .social-links i {
+  color: var(--highlight-color-light);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i:hover {
@@ -110,9 +136,6 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-
-
-
 
 /* Grid visualisation for CSS testing 
 
