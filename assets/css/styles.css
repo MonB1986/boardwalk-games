@@ -101,6 +101,20 @@ h2 {
   border: none;
 }
 
+/* Events Section */
+
+/* Offer text below table */
+.offer-text {
+  color: white;
+  text-align: center; /* Center text */
+  font-weight: bold; /* Make it bold */
+  background-color: var(--highlight-color);
+  padding: 5px 15px; /* Space inside border */
+  display: inline-block; /* Shrink border to fit text */
+  margin: 15px auto 0; /* Space above, center horizontally */
+  white-space: nowrap;
+}
+
 /* Footer / Contact */
 
 #contact {
@@ -161,6 +175,18 @@ body > div {
   #services .card-body {
     min-height: 191px;
   }
+  /*Wrapping of text in Opening times tables on md 768px and up screens */
+  .events-table th,
+  .events-table td {
+    white-space: nowrap;
+  }
+
+  .events-table th:nth-child(2),
+  .events-table td:nth-child(2) {
+    white-space: wrap;
+    width: 20%;
+  }
+
 }
 
 /* Medium devices (tablets, 992px and up) */
@@ -184,5 +210,17 @@ body > div {
   /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: 195px;
+  }
+
+  /*Wrapping of text in Opening times tables on XL screens */
+  .events-table th,
+  .events-table td {
+    white-space: nowrap;
+  }
+
+  .events-table th:nth-child(2),
+  .events-table td:nth-child(2) {
+    white-space: wrap;
+    width: 20%;
   }
 }
