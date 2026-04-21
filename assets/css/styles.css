@@ -16,7 +16,7 @@
 body {
   font-family: var(--primary-font);
   /* To push the body element down so we can see the fixed-top nav bar */
-  padding-top: 57.64px;
+  padding-top: 20px;
 }
 
 h1,
