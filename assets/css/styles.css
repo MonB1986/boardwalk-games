@@ -40,7 +40,7 @@ h2 {
 }
 
 .section {
-padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 /* Buttons */
@@ -141,6 +141,8 @@ padding-top: 4rem;
 #contact .social-links i {
   color: var(--highlight-color-light);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -152,21 +154,7 @@ padding-top: 4rem;
   background-color: transparent;
 }
 
- /*Grid visualisation for CSS testing 
 
-.container, .row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-
-body > div {
-    border: 2px solid black;
-}
-*/
 
 /* Media Queries */
 
@@ -187,7 +175,6 @@ body > div {
     white-space: wrap;
     width: 20%;
   }
-
 }
 
 /* Medium devices (tablets, 992px and up) */
